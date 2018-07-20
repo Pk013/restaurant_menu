@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Supermercado+One');
 
-/* Use the 'Lato' font family at 18px throughout the body of the document, and cover the background with the 'map-bg.jpg' image. */
-nav {font-family: lato; font-size: 18px; background-image: "map-bg.jpg"}
+title {font-family: "Supermercado One"; font-size: 45px;}
 
+/* Use the 'Lato' font family at 18px throughout the body of the document, and cover the background with the 'map-bg.jpg' image. */
+body {font-family: "lato"; font-size: 18px; background-image: url(map-bg.jpg);}
 #main {width: 900px; margin: 10px auto;}
 /* Use the 'Supermercado One' font at 45px (colored #5d4037) for the restaurant name. */
-title {font-family: Supermercado One; font-size: 45px}
+
 /* Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. */
 #menu {columns: 400px 2; column-gap: 100px;}
 section {margin-bottom: 50px;}
